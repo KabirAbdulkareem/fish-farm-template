@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% is equivelent to 10px for all pc
+        10/16=0.625 *100= 62.5%
+    */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 54px 0px 54px;
+  box-shadow: 0px 10px 22px -6px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 0px 10px 22px -6px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 10px 22px -6px rgba(0, 0, 0, 0.34);
+}
+
+.topbar .center {
+  flex-grow: 1;
+  display: flex;
+  border: 1px solid rgba(29, 42, 77, 0.35);
+  justify-content: space-between;
+  padding: 0px 0 0px 36px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.topbar .right {
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 118px;
+  margin-right: 32px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav {
+  /* border: 1px solid black; */
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav a {
+  font-size: 16px;
+  color: #1d2a4d;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-underline-offset: 6px;
+  text-decoration: none;
+  padding: 24px 0px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #13c5dd;
+}
+
+.func_ics {
+  display: flex;
+  align-items: center;
+}
+.func {
+  display: flex;
+  gap: 12px;
+}
+
+.func .bott,
+.socials .socicon {
+  width: 26px;
+  height: 26px;
+  fill: #ffffff;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.func .bott.search {
+  background-color: #13c5dd;
+}
+.func .bott.cart {
+  background-color: #1d2a4d;
+}
+
+.socials {
+  display: flex;
+  border-left: 1px solid rgba(29, 42, 77, 0.35);
+  margin: 0 24px;
+}
+
+.socials .socicon {
+  width: 26px;
+  height: 26px;
+
+  fill: #1d2a4d;
+}
+
+.socicon:nth-child(1) {
+  padding: 9px;
+}
+
+.get_quote {
+  color: #ffffff;
+  background-color: #13c5dd;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 0;
+  display: block;
+  margin-left: 40px;
+}
+
+.get_quote button {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  padding: 12px 12px;
+}
+
+/* hero section */
+
+.hero_section{
+  background-color: red;
+}
