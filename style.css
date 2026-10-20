@@ -147,12 +147,12 @@ body {
   background-color: red;
 }
 
-.left,
-.right {
+.hero_section .left,
+.hero_section .right {
   width: 20px;
   height: 20px;
 }
 
-/* .right {
+.hero_section .right {
   transform: rotate(180deg);
-} */
+}
