@@ -143,6 +143,16 @@ body {
 
 /* hero section */
 
-.hero_section{
+.hero_section {
   background-color: red;
 }
+
+.left,
+.right {
+  width: 20px;
+  height: 20px;
+}
+
+/* .right {
+  transform: rotate(180deg);
+} */
