@@ -39,12 +39,12 @@ body {
   flex-shrink: 0;
 }
 
-.logo {
+.topbar .logo {
   width: 118px;
   margin-right: 32px;
 }
 
-.logo img {
+.topbar .logo img {
   width: 100%;
 }
 
@@ -132,17 +132,89 @@ body {
 }
 
 .get_quote button {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0;
-  padding: 12px 12px;
+  padding: 1.4rem 2rem;
 }
 
 /* hero section */
 
-.hero_section{
-  background-color: red;
+.hero_section {
+  background-image: url(./images/hero-img.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 0px 136px 0px;
+}
+
+.hero_section .slide-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero_section .slide-btn:last-child {
+  transform: rotate(180deg);
+}
+
+.hero_section .slide-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+
+.hero_section .hero-content {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content .logo {
+  text-align: center;
+}
+
+.hero-content .logo span {
+  display: block;
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+
+.hero-content h1 {
+  font-size: 8rem;
+}
+
+.hero-content p {
+  font-size: 21px;
+}
+
+.hero-content .more-service {
+  color: #ffffff;
+  background-color: #13c5dd;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 0;
+  display: block;
+  margin-left: 40px;
+  width: fit-content;
+}
+
+.hero-content .more-service button {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  padding: 1.4rem 2rem;
 }
